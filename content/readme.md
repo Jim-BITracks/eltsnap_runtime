@@ -8,6 +8,12 @@ Indemnification: You agree to indemnify, defend and hold harmless BI Tracks, its
 
 See: [Liability disclaimer](liability_disclaimer.md) for details
 
+## Prerequisites:
+- Windows 10 or Windows Server 2016 (or later)
+- SQL Server 2019 (or later) Express, Standard, or Enterprise Edition
+- PowerShell Core 7.0 (or later)
+- Azure Data Studio (recommended)
+
 ## Update User PATH Variable
 
 Open the [Runtime Setup](runtime_setup.ipynb) (PowerShell) Notebook to append to the user PATH environment variable. This will allow you to launch the "eltSnap runtime" from _any_ folder on this machine.
