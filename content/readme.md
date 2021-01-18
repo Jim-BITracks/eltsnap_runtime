@@ -8,11 +8,12 @@ Indemnification: You agree to indemnify, defend and hold harmless BI Tracks, its
 
 See: [Liability disclaimer](liability_disclaimer.md) for details
 
-## Prerequisites:
+## System Requirements:
 - Windows 10 or Windows Server 2016 (or later)
 - SQL Server 2019 (or later) Express, Standard, or Enterprise Edition
 - PowerShell Core 7.0 (or later)
 - Azure Data Studio (recommended)
+- Python 3.9 (or later recommended)
 
 ## Update User PATH Variable
 
