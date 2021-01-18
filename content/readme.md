@@ -2,6 +2,12 @@
 
 This solution contains the runtime engine used by both eltSnap and notebookSnap.
 
+> Usage of this product confirms your agreement to the following 'Indemnification', and 'Liability disclaimer':
+
+Indemnification: You agree to indemnify, defend and hold harmless BI Tracks, its officers, directors, employees, agents and third parties, for any losses, costs, liabilities and expenses relating to or arising out of your use of or inability to use BI Track's Services, Programs, or any related software services.
+
+See: [Liability disclaimer](liability_disclaimer.md) for details
+
 ## Update User PATH Variable
 
 Open the [Runtime Setup](runtime_setup.ipynb) (PowerShell) Notebook to append to the user PATH environment variable. This will allow you to launch the "eltSnap runtime" from _any_ folder on this machine.
