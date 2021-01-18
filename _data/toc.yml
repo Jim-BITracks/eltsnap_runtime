@@ -1,0 +1,14 @@
+# this file controls the overall navigation displayed in the "Notebook Side Bar"
+# the following title: (Welcome) will appear directly below the the Top level Side Bar navigation
+- title: Instructions
+  url: readme
+  not_numbered: true
+- title: Search
+  search: true
+- title: Notebooks 
+  url: /readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: SQL Notebook Example
+    url: sql_notebook
