@@ -17,4 +17,6 @@ See: [Liability disclaimer](liability_disclaimer.md) for details
 
 ## Update User PATH Variable
 
-Open the [Runtime Setup](runtime_setup.ipynb) (PowerShell) Notebook to append to the user PATH environment variable. This will allow you to launch the "eltSnap runtime" from _any_ folder on this machine.
+Step 1 - Open the [Runtime Setup](runtime_setup.ipynb) (PowerShell) Notebook to append to the user PATH environment variable. This will allow you to launch the "eltSnap runtime" from _any_ folder on this machine.
+
+Step 2 - Open the [Folder Settings](folder_settings.ipynb) (SQL) Notebook to Update the SQL Server (table) based Folder Settings

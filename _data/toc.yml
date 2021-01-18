@@ -12,3 +12,5 @@
   sections:
   - title: Runtime Setup
     url: runtime_setup
+  - title: Folder Settings
+    url: folder_settings
