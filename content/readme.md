@@ -2,19 +2,6 @@
 
 This solution contains the runtime engine used by both eltSnap and notebookSnap.
 
-## Add the eltSnap 'Run' Path to the $ENV:PATH Variable
+## Update User PATH Variable
 
-1. Open a PowerShell Terminal window
-![](terminal_dir.png)
-
-## Change to the 'Run' Subdirectory
-
-``` powershell
-cd run
-```
-
-## Notebooks in this Solution
-
-[Runtime Setup](runtime_setup.ipynb) - Configure the eltSnap runtime for your environment
-
-[SQL Kernel](sql_notebook.ipynb) - Sample Notebook
+Open the [Runtime Setup](runtime_setup.ipynb) (PowerShell) Notebook to append to the user PATH environment variable. This will allow you to launch the "eltSnap runtime" from _any_ folder on this machine.

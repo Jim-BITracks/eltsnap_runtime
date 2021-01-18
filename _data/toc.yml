@@ -12,5 +12,3 @@
   sections:
   - title: Runtime Setup
     url: runtime_setup
-  - title: SQL Notebook Example
-    url: sql_notebook

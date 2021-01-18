@@ -1,5 +1,3 @@
-# eltSnap Runtime
-Starting point ('yml' & 'readme' files) needed for "Notebook navigation" in Azure Data Studio
+# eltSnap Runtime Install
 
-[Content](content/readme.md) - Notebook Sample
-
+[Content](content/readme.md) - Installation Instructions
