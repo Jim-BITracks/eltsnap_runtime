@@ -6,6 +6,7 @@ Param(
 [string]$guid
 )
 
+
 $elt_connection = New-Object System.Data.Odbc.OdbcConnection
 $elt_connection.ConnectionString = $elt_conn
 $elt_cmd = New-Object System.Data.Odbc.OdbcCommand
