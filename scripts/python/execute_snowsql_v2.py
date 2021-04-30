@@ -78,7 +78,7 @@ print("")
 if args.query_runtime_key != "":
     eltsnap_execute_sql_con = pyodbc.connect(framework_conn_string)
     eltsnap_execute_sql_cur = eltsnap_execute_sql_con.cursor()
-    eltsnap_execute_sql_cur.execute(f"{{CALL [{args.framework_database}].[sync].[get runtime query] (?,?)}}", (ProjectRunGUID, args.query_runtime_key))
+    eltsnap_execute_sql_cur.execute(f"{{CALL [sync].[get runtime query] (?,?)}}", (ProjectRunGUID, args.query_runtime_key))
     try:
         execute_snowsql = eltsnap_execute_sql_cur.fetchone()[0]
     except:
