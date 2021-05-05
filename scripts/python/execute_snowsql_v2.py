@@ -16,15 +16,10 @@ import argparse
 try:
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("-eltsnap_server", type=str, default="")
-    parser.add_argument("-eltsnap_database", type=str, default="")
-    parser.add_argument("-eltsnap_environment", type=str, default="")
     parser.add_argument("-eltsnap_project", type=str, default="")
     parser.add_argument("-eltsnap_package", type=str, default="")
     parser.add_argument("-prg", "--ProjectRunGUID", type=str, default="")
     parser.add_argument("-pkg", "--PackageRunGIUD", type=str, default="")
-    parser.add_argument("-fsrv", "--framework_server", type=str, default="")
-    parser.add_argument("-fdb", "--framework_database", type=str, default="")
     parser.add_argument("-qkey", "--query_runtime_key", type=str, default="")
     parser.add_argument("-cstr", "--conn_string", type=str, default="")
     parser.add_argument("-fcstr", "--framework_conn_string", type=str, default="")
@@ -55,9 +50,8 @@ except argparse.ArgumentError as argument_error:
     exit(1)
 
 if not conn_string:
-    conn_string = f"Driver={{SQL Server Native Client 11.0}};Server={args.eltsnap_server};Database={args.eltsnap_database};Trusted_Connection=yes;"
-
-print(conn_string)
+    print('Error: No --conn_string provided')
+    exit(1)
 
 if ProjectRunGUID:
     ProjectRunGUID = ProjectRunGUID.replace("{", "").replace("}", "")
@@ -66,12 +60,11 @@ if PackageRunGIUD:
     PackageRunGIUD = PackageRunGIUD.replace("{", "").replace("}", "")
 
 if not framework_conn_string:
-    framework_conn_string = f"Driver={{SQL Server Native Client 11.0}};Server={args.framework_server};Database={args.framework_database};Trusted_Connection=yes;"
+    print('Error: No --framework_conn_string provided')
+    exit(1)
 
 print("Using ProjectRunGUID: " + args.ProjectRunGUID)
 print("Using PackageRunGIUD: " + args.PackageRunGIUD)
-print("Using framework_server: " + args.framework_server)
-print("Using framework_database: " + args.framework_database)
 print("Using query_runtime_key: " + args.query_runtime_key)
 print("")
 
@@ -109,7 +102,6 @@ print("Using snowflake Warehouse: " + use_snowflake_Warehouse)
 print("Using snowflake Database: " + use_snowflake_Database)
 print("Using snowflake Schema: " + use_snowflake_Schema)
 print("")
-
 
 # Connecting to the Snowflake DB
 try:
