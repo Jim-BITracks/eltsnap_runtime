@@ -12,7 +12,6 @@ import argparse
 
 # get command line arguments
 
-
 try:
     parser = argparse.ArgumentParser()
 
@@ -39,9 +38,6 @@ try:
     ProjectRunGUID = args.ProjectRunGUID
     PackageRunGIUD = args.PackageRunGIUD
 
-    print("Using eltsnap_server: " + args.eltsnap_server)
-    print("Using eltsnap_database: " + args.eltsnap_database)
-    print("Using eltsnap_environment: " + args.eltsnap_environment)
     print("Using eltsnap_project: " + args.eltsnap_project)
     print("Using eltsnap_package: " + args.eltsnap_package)
 
