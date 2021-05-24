@@ -12,6 +12,7 @@ See: [Liability disclaimer](liability_disclaimer.md) for details
 - Windows 10 or Windows Server 2016 (or later)
 - SQL Server 2019 (or later) Express, Standard, or Enterprise Edition
 - PowerShell Core 7.0 (or later)
+    - PowerShell 'AZ' Module: [Link](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-5.9.0)
 - Azure Data Studio (recommended)
 - Python 3.9 (or later recommended)
 
