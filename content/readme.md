@@ -14,7 +14,7 @@ See: [Liability disclaimer](liability_disclaimer.md) for details
 - PowerShell Core 7.0 (or later)
     - PowerShell 'AZ' Module: [Link](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-5.9.0)
 - Azure Data Studio (recommended)
-- Python 3.9 (or later recommended)
+- Python 3.8 (or later recommended)
 
 ## Update User PATH Variable
 
