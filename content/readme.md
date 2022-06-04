@@ -20,3 +20,7 @@ See: [Liability disclaimer](liability_disclaimer.md) for details
 Step 1 - Open the [Runtime Setup](runtime_setup.ipynb) (PowerShell) Notebook to append to the user PATH environment variable. This will allow you to launch the "eltSnap runtime" from _any_ folder on this machine.
 
 Step 2 - Open the [Folder Settings](folder_settings.ipynb) (SQL) Notebook to Update the SQL Server (table) based Settings
+
+## Windows Front-end for eltSnap
+
+The eltSnap Front-end program ( **eltsnap_runtime_v2.exe** ) can be found in this solution under the 'wfe' folder. Configurating setting for this program can be found in the same folder, under the name: _ELTSnapDeveloper.exe.config_
