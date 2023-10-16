@@ -23,4 +23,4 @@ Step 2 - Open the [Folder Settings](folder_settings.ipynb) (SQL) Notebook to Upd
 
 ## Windows Front-end for eltSnap
 
-The eltSnap Front-end program ( **eltsnap_runtime_v2.exe** ) can be found in this solution under the 'wfe' folder. Configurating setting for this program can be found in the same folder, under the name: _ELTSnapDeveloper.exe.config_
+The eltSnap Front-end program ( **ELTSnapDeveloper.exe** ) can be found in this solution under the 'wfe' folder. Configurating setting for this program can be found in the same folder, under the name: _ELTSnapDeveloper.exe.config_
